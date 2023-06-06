@@ -41,7 +41,7 @@ export class TuiProgressCircleComponent {
     @Input()
     @HostBinding('attr.data-size')
     @tuiDefaultProp()
-    size: TuiSizeS | TuiSizeXL = 'm';
+    size: TuiSizeXL | TuiSizeXS = 'm';
 
     @HostBinding('style.--progress-percentage')
     get progressPercentage(): number {
